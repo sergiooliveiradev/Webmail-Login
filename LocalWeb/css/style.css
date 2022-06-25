@@ -1,0 +1,104 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16, 25, 33);
+}
+
+body{ 
+    background-color: rgb(37,55,70);
+}
+
+img{ 
+    display: flex;
+    margin-top: 180px;
+    margin-left: 700px;
+}
+
+.primary{ 
+    display: flex;
+    margin-left: 110px;
+    margin-top: -10px;
+}
+
+.login{ 
+    width: 310px;
+    height: 370px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 340px;
+    text-align: center;
+}
+
+.inputs{ 
+    margin-top: -10px;
+}
+
+.login h1{ 
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.login .insert{ 
+    margin-top: 40px;
+    width: 240px;
+    height: 40px;
+    padding: 10px;
+    color: rgb(16, 25, 33) ;
+    font-size: 15px;
+}
+
+a{ 
+    color: rgb(0, 167, 167);
+}
+
+button{ 
+    border: 0px;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(237,35,80);
+    cursor: pointer;
+}
+
+button:hover{ 
+    background-color:rgb(255, 45, 90) ;
+    transition: 0.3s;
+}
+
+.info{ 
+    color: white;
+    width: 310px;
+    height: 370px;
+    background-color: rgb(24,36,48);
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+span{ 
+    color: red;
+}
+
+.text{ 
+    color: white ;
+}
+
+.informacoes{ 
+    margin-left: 25px;
+    margin-top: 30px;
+    max-width: 270px;
+}
+
+.info2{ 
+    margin-top: 20px;
+    color: white;
+}
+
+.info .informacoes .link{ 
+    max-width: 50px;
+}
